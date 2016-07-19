@@ -1,0 +1,14 @@
+{
+  "name": "devsub",
+  "description": "devsub",
+  "main": "index.js",
+  "authors": [
+    "Tyler Evans"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/pat-riley/btc-media",
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "btc-top-bar": "*"
+  }
+}

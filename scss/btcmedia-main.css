@@ -1,0 +1,342 @@
+/* line 1, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+body {
+  overflow-x: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 11, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.text-muted {
+  color: #777; }
+
+/* line 14, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.text-primary {
+  color: #fe8043; }
+
+/* line 17, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+p {
+  font-size: 14px;
+  line-height: 1.75; }
+
+/* line 21, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+p.large {
+  font-size: 16px; }
+
+/* line 24, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+a, a.active, a:active, a:focus, a:hover {
+  outline: 0; }
+
+/* line 27, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+a {
+  color: #888; }
+
+/* line 30, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+img {
+  max-width: 100%; }
+
+/* line 34, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.nopad {
+  padding: 0;
+  margin: 0; }
+
+/* line 39, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+a.active, a:active, a:focus, a:hover {
+  color: black;
+  text-decoration: none; }
+
+/* line 43, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700; }
+
+/* line 48, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.img-centered {
+  margin: 0 auto; }
+
+/* line 51, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.bg-light-gray {
+  background-color: #E0E0E0; }
+
+/* line 54, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.bg-darkest-gray {
+  background-color: #222; }
+
+/* line 57, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.nav-list li a:focus, .nav-list li a:hover {
+  outline: 0;
+  color: black; }
+
+@media (min-width: 768px) {
+  /* line 64, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+  .bottom-nav.navbar-shrink {
+    padding: 10px 0;
+    background-color: #222; }
+ }
+
+/* line 73, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+header {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url(/img/night_skyline_sm.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+/* line 85, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px; }
+
+/* line 90, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+header .overlay {
+  background: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%; }
+
+/* line 97, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+header .intro-text .intro-lead-in {
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px; }
+
+/* line 103, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+header .intro-text .intro-heading {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 3px; }
+
+/* line 113, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.logo {
+  max-width: 200px; }
+
+@media (min-width: 768px) {
+  /* line 118, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+  header .intro-text {
+    padding-top: 130px;
+    padding-bottom: 60px; }
+
+  /* line 122, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+  header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px; }
+
+  /* line 128, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+  header .intro-text .intro-heading {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 55px;
+    padding-top: 10px; }
+ }
+
+/* line 137, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+section {
+  padding: 60px 0; }
+
+/* line 140, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+section h2.section-heading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 40px; }
+
+/* line 145, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+section h3.section-subheading {
+  margin-bottom: 75px;
+  text-transform: none;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400; }
+
+@media (min-width: 768px) {
+  /* line 153, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+  section {
+    padding: 100px 0; }
+ }
+
+/* line 156, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.service-heading {
+  margin: 15px 0;
+  text-transform: none; }
+
+/* line 161, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+footer {
+  padding: 25px 0;
+  text-align: center; }
+
+/* line 165, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+footer span.copyright {
+  text-transform: uppercase;
+  text-transform: none;
+  line-height: 40px; }
+
+/* line 170, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+footer ul.quicklinks {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-transform: none;
+  line-height: 40px; }
+
+/* line 177, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+::-moz-selection {
+  text-shadow: none;
+  background: #fe8043; }
+
+/* line 181, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+::selection {
+  text-shadow: none;
+  background: #fe8043; }
+
+/* line 185, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+img::selection {
+  background: 0 0; }
+
+/* line 188, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+img::-moz-selection {
+  background: 0 0; }
+
+/* line 191, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+body {
+  webkit-tap-highlight-color: #fe8043; }
+
+/* line 195, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.left {
+  text-align: left; }
+
+/* line 198, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.right {
+  text-align: right; }
+
+/* line 201, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.center {
+  text-align: center; }
+
+/* line 204, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.cap {
+  text-transform: uppercase; }
+
+/* line 208, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.ib {
+  display: inline-block; }
+
+/* line 211, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.orange {
+  color: #fe8043; }
+
+/* line 215, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.subhead, .nav-list li a {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #888; }
+
+/* line 222, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.nav-list {
+  width: 100%;
+  text-align: center; }
+  /* line 225, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+  .nav-list li {
+    height: 50px;
+    padding: 15px 15px; }
+    /* line 228, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+    .nav-list li a {
+      font-size: 12px; }
+  /* line 233, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+  .nav-list .active {
+    border-bottom: 1px solid #999; }
+    /* line 234, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+    .nav-list .active a {
+      color: black;
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); }
+
+/* line 246, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.underline {
+  border-bottom: 1px solid #e6e6e6;
+  height: 50px; }
+
+/* line 251, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.header-light {
+  font-weight: 100; }
+
+/* line 255, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.subtext-body {
+  color: #888;
+  padding-bottom: 3px; }
+
+/* line 260, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+td {
+  vertical-align: bottom;
+  padding-left: 20px; }
+
+/* line 265, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.back-grey {
+  background: #222;
+  padding-top: 70px;
+  padding-bottom: 60px; }
+  /* line 269, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+  .back-grey p {
+    color: #999;
+    letter-spacing: 1px; }
+
+/* line 274, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.pad15lr {
+  padding: 0 15px; }
+
+/* line 278, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.name {
+  font-size: 11px;
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 0; }
+
+/* line 284, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.role {
+  font-size: 10px;
+  color: #888;
+  font-weight: 600;
+  margin-top: 0; }
+
+/* line 290, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.header {
+  width: 100%;
+  background: white; }
+
+/* line 295, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.img-centered {
+  padding: 30px 40px;
+  max-width: 200px; }
+
+/* line 300, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.clients {
+  background-color: #e6e6e6; }
+
+/* line 304, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.sticky {
+  top: 0; }
+
+/* line 309, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+a.white-hover:hover, a.white-hover:active {
+  color: white; }
+
+/* line 313, /Users/workstation/Downloads/new_btcmedia_org/css/main.scss */
+.hiring {
+  margin-top: 20px;
+  font-size: 12px; }
+
+/*# sourceMappingURL=main.css.map */

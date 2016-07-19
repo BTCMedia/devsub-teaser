@@ -1,0 +1,116 @@
+.topbar {
+  background-color: #201D1E;
+  position: relative;
+  z-index: 1000; }
+
+.btc-bar-container {
+  padding-right: .9375rem;
+  padding-left: .9375rem;
+  margin-right: auto;
+  margin-left: auto; }
+
+.btc-bar-row {
+  margin-right: -.9375rem;
+  margin-left: -.9375rem;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  display: block;
+  box-sizing: inherit; }
+
+.btc-bar-row::after {
+  display: table;
+  clear: both;
+  content: ""; }
+
+.topbar__link-left {
+  font-family: "Source Sans Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+  border-right: 1px solid #353535;
+  letter-spacing: 1px;
+  padding: 7px 13px;
+  line-height: 27px; }
+
+.topbar__link-left:last-child {
+  border-right: none; }
+
+.topbar__link-left:focus, .topbar__link-left:hover, .topbar__link-left:active {
+  color: #FFFFFF; }
+
+.topbar__link-right {
+  font-family: "Source Sans Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+  border-left: 1px solid #353535;
+  padding: 7px 13px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  background-color: #201D1E;
+  cursor: pointer; }
+
+.topbar__link-right:focus, .topbar__link-right:hover, .topbar__link-right:active {
+  background-color: #353535;
+  color: #FFFFFF;
+  text-decoration: none; }
+
+.topbar__link-left--grey {
+  opacity: 0.5;
+  text-decoration: none; }
+
+.topbar__link-left--grey:hover {
+  opacity: 1;
+  text-decoration: none; }
+
+.channels-menu {
+  position: absolute;
+  top: -200px;
+  text-align: center;
+  right: 0;
+  background-color: #201D1E;
+  opacity: 0;
+  -moz-transition: all ease-in-out 0.25s;
+  transition: all ease-in-out 0.25s;
+  -webkit-transition: all ease-in-out 0.25s;
+  z-index: -1; }
+
+.channels-menu.js-show {
+  opacity: 1;
+  top: 27px; }
+
+.channels-menu--item {
+  border-top: 1px solid #353535; }
+
+.channels-menu--item a {
+  display: block;
+  padding: 10px 20px; }
+
+.channels-menu--item a:focus, .channels-menu--item a:hover, .channels-menu--item a:active {
+  background-color: #353535; }
+
+.nopad {
+  padding: 0; }
+
+.right {
+  text-align: right; }
+
+.rel {
+  position: relative; }
+
+.nomargin {
+  margin: 0; }
+
+.width-50 {
+  width: 50%;
+  float: left; }
+
+@media (max-width: 767px) {
+  .hidden-sm-down {
+    display: none !important; } }
+
+.b-dropdown:hover .channels-menu {
+  top: 27px;
+  opacity: 1; }
+
+.no-bullets {
+  list-style: none;
+  padding-left: 0; }
