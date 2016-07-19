@@ -4,7 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -627,15 +628,15 @@ pre {
   @media (min-width: 544px) {
     .container {
       max-width: 576px; } }
-  @media (min-width: 850px) {
+  @media (min-width: 768px) {
     .container {
-      max-width: 800px; } }
-  @media (min-width: 1100px) {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
     .container {
-      max-width: 1040px; } }
-  @media (min-width: 1400px) {
+      max-width: 940px; } }
+  @media (min-width: 1200px) {
     .container {
-      max-width: 1280px; } }
+      max-width: 1140px; } }
 
 .container-fluid {
   margin-left: auto;
@@ -923,7 +924,7 @@ pre {
   .col-sm-offset-12 {
     margin-left: 100%; } }
 
-@media (min-width: 850px) {
+@media (min-width: 768px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
   .col-md-1 {
@@ -1029,7 +1030,7 @@ pre {
   .col-md-offset-12 {
     margin-left: 100%; } }
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
   .col-lg-1 {
@@ -1135,7 +1136,7 @@ pre {
   .col-lg-offset-12 {
     margin-left: 100%; } }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
     float: left; }
   .col-xl-1 {
@@ -2774,11 +2775,11 @@ input[type="button"].btn-block {
   .navbar-toggleable-xs {
     display: block !important; } }
 
-@media (min-width: 850px) {
+@media (min-width: 768px) {
   .navbar-toggleable-sm {
     display: block !important; } }
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   .navbar-toggleable-md {
     display: block !important; } }
 
@@ -3808,7 +3809,7 @@ button.close {
   .modal-sm {
     width: 300px; } }
 
-@media (min-width: 850px) {
+@media (min-width: 768px) {
   .modal-lg {
     width: 900px; } }
 
@@ -4202,7 +4203,7 @@ button.close {
   .pull-sm-none {
     float: none !important; } }
 
-@media (min-width: 850px) {
+@media (min-width: 768px) {
   .pull-md-left {
     float: left !important; }
   .pull-md-right {
@@ -4210,7 +4211,7 @@ button.close {
   .pull-md-none {
     float: none !important; } }
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   .pull-lg-left {
     float: left !important; }
   .pull-lg-right {
@@ -4218,7 +4219,7 @@ button.close {
   .pull-lg-none {
     float: none !important; } }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .pull-xl-left {
     float: left !important; }
   .pull-xl-right {
@@ -4282,7 +4283,7 @@ button.close {
   .text-sm-center {
     text-align: center !important; } }
 
-@media (min-width: 850px) {
+@media (min-width: 768px) {
   .text-md-left {
     text-align: left !important; }
   .text-md-right {
@@ -4290,7 +4291,7 @@ button.close {
   .text-md-center {
     text-align: center !important; } }
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   .text-lg-left {
     text-align: left !important; }
   .text-lg-right {
@@ -4298,7 +4299,7 @@ button.close {
   .text-lg-center {
     text-align: center !important; } }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .text-xl-left {
     text-align: left !important; }
   .text-xl-right {
@@ -4605,27 +4606,27 @@ a.bg-danger:focus, a.bg-danger:hover {
   .hidden-sm-up {
     display: none !important; } }
 
-@media (max-width: 849px) {
+@media (max-width: 767px) {
   .hidden-sm-down {
     display: none !important; } }
 
-@media (min-width: 850px) {
+@media (min-width: 768px) {
   .hidden-md-up {
     display: none !important; } }
 
-@media (max-width: 1099px) {
+@media (max-width: 991px) {
   .hidden-md-down {
     display: none !important; } }
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   .hidden-lg-up {
     display: none !important; } }
 
-@media (max-width: 1399px) {
+@media (max-width: 1199px) {
   .hidden-lg-down {
     display: none !important; } }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .hidden-xl-up {
     display: none !important; } }
 
@@ -4653,3 +4654,64 @@ a.bg-danger:focus, a.bg-danger:hover {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+body {
+  background-color: #FFE711;
+  font-family: 'Ubuntu Mono', monospace; }
+
+.center {
+  text-align: center; }
+
+.logo {
+  max-width: 250px; }
+
+.ds-input {
+  width: 100%;
+  border: 2px solid #201D1E;
+  border-radius: 0;
+  padding: .5em 1em;
+  font-weight: 500;
+  letter-spacing: .05rem;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out; }
+  .ds-input:focus {
+    outline: none; }
+
+.ds-cta-button {
+  width: 100%;
+  border: 2px solid #201D1E;
+  border-radius: 0;
+  padding: .5em 2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: .05rem;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  background-color: #201D1E;
+  color: #ffffff; }
+  .ds-cta-button:hover {
+    background-color: #201D1E;
+    color: #ffffff;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    border: 2px solid #201D1E;
+    outline: none; }
+  .ds-cta-button:focus:active {
+    outline: none;
+    background-color: #201D1E;
+    color: #ffffff; }
+  .ds-cta-button:focus {
+    background-color: #201D1E;
+    color: #FFE711;
+    outline: none;
+    border: 2px solid #201D1E; }
+  .ds-cta-button:active {
+    background-color: #201D1E;
+    color: #ffffff; }
+  .ds-cta-button:active:hover {
+    background-color: #201D1E;
+    color: #ffffff;
+    border: 2px solid #2f2b2c; }

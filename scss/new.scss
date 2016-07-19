@@ -1,3 +1,71 @@
 @import 'variables';
 @import "../bower_components/bootstrap/scss/bootstrap.scss";
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700);
+
+body {
+  background-color: #FFE711;
+  font-family: 'Ubuntu Mono', monospace ;
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.ds-input {
+  width: 100%;
+  border: 2px solid $black;
+  border-radius: 0;
+  padding: .5em 1em;
+  font-weight: 500;
+  letter-spacing: .05rem;
+  transition: all 0.25s ease-out;
+  &:focus {
+    outline: none;
+  }
+}
+
+
+.ds-cta-button {
+  width: 100%;
+  border: 2px solid $black;
+  border-radius: 0;
+  padding: .5em 2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: .05rem;
+	transition: all 0.25s ease-out;
+  background-color: $black;
+  color: #ffffff;
+	&:hover {
+    background-color: $black;
+    color: #ffffff;
+	  transition: background-color 0.3s ease;
+	  border: 2px solid $black;
+		outline: none;
+	}
+	&:focus:active {
+		outline: none;
+    background-color: $black;
+    color: #ffffff;
+	}
+	&:focus {
+    background-color: $black;
+    color: #FFE711;
+		outline: none;
+	  border: 2px solid $black;
+	}
+	&:active {
+    background-color: $black;
+    color: #ffffff;
+	}
+	&:active:hover {
+    background-color: $black;
+    color: #ffffff;
+		border: 2px solid #2f2b2c;
+	}
+}
