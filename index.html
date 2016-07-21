@@ -33,6 +33,20 @@ Reach out to us at hello@btcmedia.org
 	<title>Devsub | Dive Deep into Blockchain Development</title>
 	<link href="/ico/sub1.ico" rel="shortcut icon">
 
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-57790205-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
 
     <!-- <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
     <link href="/bower_components/btc-top-bar/topbar.css" rel="stylesheet" type="text/css">
@@ -111,8 +125,25 @@ Reach out to us at hello@btcmedia.org
     <script type="text/javascript">
       KlaviyoSubscribe.attachToForms('#email_signup', {
         hide_form_on_success: true,
+        extra_properties: {
+            $source: 'Devsub Teaser Page'
+        },
+        success: function ($form) {
+            _gaq.push(['_trackEvent', 'Acquisition', 'Newsletter Sign Up', 'Website']);
+        }
       });
-    </script>
+     var _learnq = _learnq || [];
+    _learnq.push(['account', 'jS497G']);
+    _learnq.push(['track', 'Site Visit', {
+        'Domain': 'devsub.io'
+    }]);
+
+    (function () {
+    var b = document.createElement('script'); b.type = 'text/javascript'; b.async = true;
+    b.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'a.klaviyo.com/media/js/analytics/analytics.js';
+    var a = document.getElementsByTagName('script')[0]; a.parentNode.insertBefore(b, a);
+    })();
+</script>
 
 
 
