@@ -160,7 +160,7 @@ function upload_html(bucket) {
 }
 
 gulp.task("uploadeverythingtoproduction", ['build'], function() {
-    var bucket = 'www.btcmedia.org'
+    var bucket = 'devsub.io'
     upload_imgs(bucket)
     upload_css(bucket)
     upload_js(bucket)
